@@ -33,6 +33,10 @@ class Song
     end
   end
 
+  def alphabetical
+
+  end
+
   def self.new_from_filename(song_name)
     song_name = self.new
     data = song_name[0...-4].split(" - ")
