@@ -31,7 +31,6 @@ class Song
     else
       self.find_by_name(song_name)
     end
-      return song_name.name
 
 
     # if @@all.find { |song| song.name == song_name } == true
