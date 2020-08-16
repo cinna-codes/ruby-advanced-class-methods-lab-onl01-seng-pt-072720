@@ -40,7 +40,7 @@ class Song
     song_name = self.new
     song_name.name = song_name[0]
     song_name.artist_name = song_name[1]
-    song_name
+    #song_name
     # data = song_name
     # song_name = self.new
     # data = data.split(" - ")
