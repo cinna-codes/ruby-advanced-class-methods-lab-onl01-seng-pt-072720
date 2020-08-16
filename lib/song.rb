@@ -38,6 +38,7 @@ class Song
     data = song_name[0...-4].split(" - ")
     song_name.name = data[0]
     song_name.artist_name = data[1]
+    song_name
     # data = song_name
     # song_name = self.new
     # data = data.split(" - ")
