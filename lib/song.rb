@@ -33,7 +33,7 @@ class Song
     end
   end
 
-  def alphabetical
+  def self.alphabetical
 
   end
 
