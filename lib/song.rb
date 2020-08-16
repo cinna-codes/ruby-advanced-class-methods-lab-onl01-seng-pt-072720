@@ -40,6 +40,7 @@ class Song
     data = data.split(".mp3")
     song_name.name = data[0]
     song_name.artist_name = data[1]
+    song_name
   end
 
   def self.all
