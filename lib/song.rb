@@ -33,32 +33,7 @@ class Song
     end
   end
 
-    # if self.find_by_name(song_name) == false
-    #   self.create_by_name(song_name)
-    # else
-    #   self.find_by_name(song_name)
-    # end
 
-
-    # if @@all.find { |song| song.name == song_name } == true
-    #   return song
-    # else
-    #   new_song = self.new
-    #   new_song.name = song_name
-    #   @@all << new_song
-    #   return new_song
-    # end
-
-    # @@all.each do |song|
-    #   if song.name == song_name
-    #     return song
-    #
-    #   else
-    #     new_song = self.new
-    #     new_song.name = song_name
-    #     return new_song
-    #   end
-    # end
 
   def self.all
     @@all
